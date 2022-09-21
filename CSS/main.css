@@ -13,3 +13,7 @@ nav ol {
   display: flex;
   justify-content: center;
 }
+
+nav ol li {
+  padding: 0 0.5em;
+}
