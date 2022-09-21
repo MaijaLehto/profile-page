@@ -17,3 +17,13 @@ nav ol {
 nav ol li {
   padding: 0 0.5em;
 }
+
+nav ol li a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
