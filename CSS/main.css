@@ -14,6 +14,12 @@ nav ol {
   justify-content: center;
 }
 
+.hero-banner {
+  width: 100%;
+  height: 200px;
+  background-color: #999;
+}
+
 nav ol li {
   padding: 0 0.5em;
 }
@@ -25,5 +31,14 @@ nav ol li a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  
+
+}
+.grid:nth-child(1) {
+grid-column 1 /span 3;
+}
+
+.grid img {
+  width:100%;
+  height: 15vw;
+  object-fit: cover;
 }
