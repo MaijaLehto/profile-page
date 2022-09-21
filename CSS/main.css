@@ -5,3 +5,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 1.25em 0;
+  display: flex;
+  justify-content: center;
+}
