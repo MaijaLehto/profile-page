@@ -12,6 +12,10 @@ body {
     background-color: #E6F0CE;
 }
 
+h1 {
+  font-size: 100px;
+}
+
 nav ol {
   list-style-type: none;
   margin: 0;
