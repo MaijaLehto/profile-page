@@ -58,9 +58,11 @@ nav ol li a {
 
 .chosen-photo {
   padding: .25rem;
-  background-color: #FFFFFF;
 }
 
+#sheet-ghost {
+  background-color: #FFFFFF;
+}
 
 .grid img {
   width:100%;
@@ -89,6 +91,7 @@ nav ol li a {
 
 h2 {
   margin-left: 2.5rem;
+  margin-bottom: .5rem;
 }
 
 footer {
