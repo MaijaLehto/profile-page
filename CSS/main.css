@@ -47,8 +47,14 @@ nav ol li a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
+
+.chosen-photo {
+  padding: .5rem;
+}
+
 .grid:nth-child(1) {
 grid-column: 1 / span 3;
 }
@@ -61,9 +67,20 @@ grid-column: 1 / span 3;
 
 .about-me {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  margin: .5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .about-me img {
   width: 100%;
+  margin-left: 1rem;
+  border-style: solid;
+  border-width: thick;
+  border-color: #6B784B;
+}
+
+h2 {
+  margin-left: 2.5rem;
 }
