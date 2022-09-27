@@ -19,14 +19,20 @@ nav ol {
   justify-content: center;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-banner {
-  width: 100%;
+  height: 100%;
   height: 80vh;
-  background-color: #000;
-  background-image: ;
+  background-color: #1986;
+  background-image: url("../images/pexels-luis-del-rio-15286.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
 }
 
 nav ol li {
@@ -35,6 +41,7 @@ nav ol li {
 
 nav ol li a {
   text-decoration: none;
+  color: #000;
 }
 
 .grid {
@@ -52,6 +59,11 @@ grid-column: 1 / span 3;
   object-fit: cover;
 }
 
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .about-me img {
-  width: 25%;
+  width: 100%;
 }
