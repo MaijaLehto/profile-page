@@ -1,5 +1,5 @@
 html {
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 *, *::before, *::after {
@@ -9,6 +9,7 @@ html {
 body {
     font-family: "Libre-Baskerville", serif;
     font-size: 25px;
+    background-color: #E6F0CE;
 }
 
 nav ol {
@@ -24,13 +25,17 @@ header {
   justify-content: center;
 }
 
+h1 {
+  color: #E6F0CE;
+}
+
 .hero-banner {
   height: 100%;
   height: 40vh;
   background-color: #1986;
-  background-image: url(".../images/pexels-luis-del-rio-15286.jpg");
+  background-image: url("../images/forest-cry.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
 
 }
@@ -53,11 +58,9 @@ nav ol li a {
 
 .chosen-photo {
   padding: .25rem;
+  background-color: #FFFFFF;
 }
 
-.grid:nth-child(1) {
-grid-column: 1 / span 3;
-}
 
 .grid img {
   width:100%;
